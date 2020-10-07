@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct LaunchView: View {
+    @EnvironmentObject var viewlaunch: ViewLaunch
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if viewlaunch.currentPage == "onBoardingView" {
+                OnboardingView()
+            } else if viewlaunch.currentPage == "ContentView" {
+                ContentView()
+            }
+        }
     }
 }
 
-struct LaunchView_Previews: PreviewProvider {
-    static var previews: some View {
-        LaunchView()
+class ViewLaunch: ObservableObject {
+
+    init() {
+        if !UserDefaults.standard.bool(forKey: "LaunchBefore") {
+                currentPage = "onBoardingView"
+        } else {
+            currentPage = "ContentView"
+        }
     }
+    @Published var currentPage: String
 }

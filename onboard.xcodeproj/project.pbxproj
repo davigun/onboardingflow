@@ -11,6 +11,8 @@
 		469B9646252D8A210014D3DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B9645252D8A210014D3DE /* ContentView.swift */; };
 		469B9648252D8A230014D3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469B9647252D8A230014D3DE /* Assets.xcassets */; };
 		469B964B252D8A230014D3DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469B964A252D8A230014D3DE /* Preview Assets.xcassets */; };
+		469B9654252D8A8E0014D3DE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B9653252D8A8E0014D3DE /* OnboardingView.swift */; };
+		469B9657252D8AB20014D3DE /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B9656252D8AB20014D3DE /* LaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		469B9647252D8A230014D3DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		469B964A252D8A230014D3DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		469B964C252D8A230014D3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469B9653252D8A8E0014D3DE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		469B9656252D8AB20014D3DE /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				469B9643252D8A210014D3DE /* onboardApp.swift */,
 				469B9645252D8A210014D3DE /* ContentView.swift */,
+				469B9653252D8A8E0014D3DE /* OnboardingView.swift */,
+				469B9656252D8AB20014D3DE /* LaunchView.swift */,
 				469B9647252D8A230014D3DE /* Assets.xcassets */,
 				469B964C252D8A230014D3DE /* Info.plist */,
 				469B9649252D8A230014D3DE /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469B9654252D8A8E0014D3DE /* OnboardingView.swift in Sources */,
+				469B9657252D8AB20014D3DE /* LaunchView.swift in Sources */,
 				469B9646252D8A210014D3DE /* ContentView.swift in Sources */,
 				469B9644252D8A210014D3DE /* onboardApp.swift in Sources */,
 			);
