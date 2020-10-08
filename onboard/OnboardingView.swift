@@ -20,7 +20,7 @@ struct OnboardingView: View {
         
                 
             VStack(alignment: .leading) {
-                    NewDetail(image: "heart.fill", imageColor: .pink, title: "More Personalized", description: "Top Stories picked for you and recommendations from siri.")
+                    NewDetail(image: "heart.fill", imageColor: .yellow, title: "More Personalized", description: "Top Stories picked for you and recommendations from siri.")
                     NewDetail(image: "paperclip", imageColor: .red, title: "New Spotlight Tab", description: "Discover great stories selected by our editors.")
                     NewDetail(image: "play.rectangle.fill", imageColor: .blue, title: "Video In Today View", description: "The day's best videos, right in the News widget.")
             }.padding(.top, 12)
